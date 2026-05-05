@@ -28,9 +28,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/hellboxpy/hellbox-subset"
 
-[tool.setuptools.dynamic]
-version = {attr = "hellbox.jobs.subset.__version__.__version__"}
-
 [tool.setuptools.packages.find]
 where = ["src"]
 namespaces = true
