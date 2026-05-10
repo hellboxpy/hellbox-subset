@@ -21,5 +21,12 @@ Subset("U+0000-U+007F", glyphs=["space", "nbspace"])
 ## Installation
 
 ```sh
-pip install hellbox-subset
+hell add hellbox-subset
+```
+
+## Development
+
+```sh
+uv sync
+uv run pytest
 ```
