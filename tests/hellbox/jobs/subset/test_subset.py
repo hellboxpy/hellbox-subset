@@ -1,4 +1,4 @@
-from unittest.mock import MagicMock, call, patch
+from unittest.mock import MagicMock, patch
 
 from hellbox.jobs.subset import Subset
 from hellbox.jobs.subset.subset import _parse_unicodes
